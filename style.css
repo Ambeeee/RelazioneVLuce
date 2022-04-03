@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    
+}
+
+body{
+    background-color: rgb(243, 228, 11);
+    
+}
+#sub{
+    font-size: 30px;
+    width: 80%;
+    margin: 3% 10%;
+    text-align: center;
+    font-style: italic;
+    color: white;
+    text-shadow: 2px 1px 5px purple;
+}
+#Titolo{
+    font-size: 80px;
+    margin: 5%;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: white;
+    text-shadow: 5px 5px 0px rgb(97, 48, 2);
+}
+
+
+.box{
+    width: auto;
+    max-width: 80%;
+    padding: 2%;
+    margin: 2% 10%;
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 25px;
+}
+.titoletto{
+    font-size: 175%;
+    font-family: 'Akaya Telivigala', cursive;
+    text-transform: uppercase;
+}
+.testo{
+    margin: 1% 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    line-height: 200%;
+}
+li{
+    font-size: 25px;
+    line-height: 50px;
+}
+
+
+
+#sezioneOc{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#occorrente{
+    width: 45%;
+    min-width: 400px;
+}
+#fotoOc{
+    margin: 2%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+}
+#fotoOc img{
+    width: 30%;
+    margin: auto;
+    height: fit-content;
+    border-radius: 25px;
+    box-shadow: 7px 7px 0px white;
+}
+
+
+
+#procedimento{
+    text-align: left;
+}
+#p1:after{
+    content: "->";
+}
+#p2:before{
+    content: "->";
+}
+#calc{
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+
+
+#sezioneOs{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+#osservazioni{
+    width: 80%;
+    margin-left: 5%;
+    text-align: end;
+}
+#osservazioni p{
+    text-align: end;
+}
+#fotoOs{
+    width: 80%;
+    margin: 2% 0%;
+    margin-left: 10%; 
+}
+#fotoOs img{
+    width: 70%;
+    height: fit-content;
+    border-radius: 25px;
+    box-shadow: 7px 7px 0px white;
+}
+
+
+#conclusioni{
+    text-align: center;
+}
+#conclusioni p{
+    text-align: center;
+}
+
+.data{
+    margin: 0 1%;
+    color: blue;
+    font-size: 20px;
+    font-weight: bolder;
+    display: inline;
+}
+#mark{
+    margin: 1%;
+    text-align: end;
+    font-size: 15px;
+    font-family: 'Forte';
+    color: black;
+    opacity: 40%;
+    cursor: none;
+}

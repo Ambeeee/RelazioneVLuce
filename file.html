@@ -1,12 +1,91 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
+    <title>Relazione Velocità Luce</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Lobster&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    
+    <div id="sub"><p>~Esperienza di Laboratorio~</p></div>
+    <div id="Titolo"><p>Calcoliamo La Velocità Della Luce</p></div>
+    <div id="pagina">
+
+        <!--OCCORRENTE-->
+        <div id="sezioneOc">
+            <div class="box" id="occorrente">
+                <div class="titoletto">OCCORRENTE:</div>
+                <p class="testo">
+                    <ul>
+                        <li>Una Tavoletta Di Cioccolato</li>
+                        <li>Un Righello (Sensibilità: 1 mm)</li>
+                        <li>Un Forno A Microonde</li>
+                    </ul>
+                </p>
+            </div>
+            <div id="fotoOc">
+                <img src="forno.jpg" alt="foto forno">
+                
+                <img src="riga.jpg" alt="foto riga">
+
+                <img src="choc.jpg" alt="foto cioccolato">
+            </div>
+        </div>
+        <!--PROCEDIMENTO-->
+        <div class="box" id="procedimento">
+            <div class="titoletto">procedimento:</div>
+            <p class="testo" id="p1">
+                Per prima cosa controlliamo, tra le specifiche tecniche del forno,
+                frequenza delle onde che emette: nel nostro caso equivale a <a class="data">2450MHz</a>
+                (ovvero 2,45 * 10⁸). Dopodiché prendiamo la tavoletta di cioccolato e la riponiamo all'interno del forno.
+                Fare attenzione che la tavoletta rimanga ferma, in modo che le creste non colpiscano l'intera
+                superficie ma solo dei singoli punti periodici. Lasciare il cioccolato nel microonde in funzione
+                per vari secondi.
+            </p>
+        </div>
+        <!--OSSERVAZIONI-->
+        <div id="sezioneOs">
+            <div class="box" id="osservazioni">
+                <div class="titoletto">osservazioni:</div>
+                <p class="testo">
+                    Dopo aver tirato fuori il cioccolato dal forno ci noteremo che la tavoletta non sarà completamente sciolta,
+                    ma lo sarà solo in alcuni punti equidistanti (più o meno) tra loro. Ciò è possibile
+                    poiché le onde hanno raggiunto la superficie del cioccolato solo in prossimità dei ventri
+                    (ovvero i punti pù bassi) e delle creste (i punti più alti).
+                </p>
+            </div>
+            <div id="fotoOs">
+                <img src="final.jpg" alt="foto">
+            </div>
+        </div>
+        <!--PROCEDIMENTO 2-->
+        <div class="box" id="procedimento">
+            <p class="testo" id="p2">
+                A questo punto misuriamo la distanza tra i vari punti caldi della tavoletta cercando di essere più precisi possibile:
+                troveremo che questa si avvicina ai <a class="data">6 cm,</a> che equivale a metà della lunghezza di un'onda in quanto ogni ventre si trova
+                a metà tra due creste e viceversa . Ora che conosciamo la frequenza f
+                e la lunghezza d'onda λ possiamo ricavare la velocità della luce tramite la formula c = f ∙ λ e svolgendo i calcoli:
+                <p id="calc"> c = f ∙ λ = <br> c = 2.45 ∙ 10^9 ∙ 0.12 = <br> = 2.94 ∙ 10^8 ≈ 3,00 m/s</p>
+            </p>
+        </div>
+        <!--CONCLUSIONI-->
+        <div class="box" id="conclusioni">
+            <div class="titoletto">conclusioni:</div>
+            <p class="testo">
+                Nel 1676 lo scienziato danese Ole Rømer intuì che la velocità della luce poteva essere misurata, e vi riuscì
+                prendendo in considerazione il tempo che impiegava la luce riflessa da Io (uno dei satelliti di Giove) nel compiere un giro
+                intorno al proprio Gigante Gassoso: un'impresa davvero impensabile a quel tempo. Oggi, dopo quasi 350 anni, anche noi
+                siamo riusciti a misurarla grazie ad un comune forno a microonde e del cioccolato!
+            </p>
+        </div>
+
+
+        <div id="mark">by Alessandro Minestrini</div>
+    </div>
 </body>
 </html>
